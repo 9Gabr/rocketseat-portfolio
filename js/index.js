@@ -86,7 +86,7 @@ fetch('https://api.github.com/users/9Gabr/events').then(async res => {
                             rel="external">${ev.repo.name.split('/').pop()}</a>`}</h5>
                     <p style="font-size: 0.85rem">${eventDate}</p>
                     <p><strong style="color: var(--text-color)">${eventType().type}</strong>:
-                        ${eventType().message.join(', ')}</p>
+                        ${eventType().message[0]}</p>
                 </div>
             </div>
         </article>
