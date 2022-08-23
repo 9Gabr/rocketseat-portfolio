@@ -1,5 +1,7 @@
 # Desafio: Portfolio - Rocketseat
 
+Minha resolução, feito com 💕
+
 ## Frameworks e Libraries
 
 [Bulma](https://bulma.io/)
