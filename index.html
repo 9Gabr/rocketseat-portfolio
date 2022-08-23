@@ -1,12 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js"></script>
 </head>
-<body>
-    
+
+<body class="container is-fullhd">
+    <main class="columns" id="mainColumnsDiv">
+        <aside class="column is-4">
+            <div class="box card-photo">
+                <img src="https://avatars.githubusercontent.com/u/92824047" alt="foto de perfil github">
+                <div class="content">
+                    <h2>Gabriel de Oliveira</h2>
+                    <p>Estudante de programação</p>
+                </div>
+            </div>
+            <div class="box" id="card-informacoes">
+                <div class="content card-informacoes">
+                    <i data-feather="map-pin"></i>
+                    <p>Rio de Janeiro, Brasil</p>
+                </div>
+                <div class="content card-informacoes">
+                    <i data-feather="github"></i>
+                    <p><a href="https://github.com/9Gabr" target="_blank" rel="author">9gabr</a></p>
+                </div>
+                <div class="content card-informacoes">
+                    <i data-feather="linkedin"></i>
+                    <p><a href="https://www.linkedin.com/in/9gabr" target="_blank" rel="author">9gabr</a></p>
+                </div>
+                <div class="content card-informacoes">
+                    <i data-feather="mail"></i>
+                    <p><a href="mailto:dev9gabr@gmail.com">dev9gabr@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="box" id="card-tecnologias">
+                <div class="content">
+                    <h2>Tecnologias</h2>
+                </div>
+                <div class="tags">
+                    <span class="tag is-rounded">HTML</span>
+                    <span class="tag is-rounded">CSS</span>
+                    <span class="tag is-rounded">JavaScript</span>
+                </div>
+            </div>
+        </aside>
+        <article class="column is-8">
+            <div class="box">
+                <div class="content projetos-header">
+                    <h3>Meus projetos</h3>
+                    <p><a href="https://github.com/9Gabr?tab=repositories" target="_blank" rel="author">ver todos</a>
+                    </p>
+                </div>
+            </div>
+            <div class="projetos-div columns">
+            </div>
+            <div class="box">
+                <div class="level atividades-header">
+                    <div class="level-left">
+                        <div class="level-item">
+                            <div class="content">
+                                <h3>Atividades recentes</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="level-right">
+                        <div class="level-item">
+                            <div class="content">
+                                <a href="https://github.com/9Gabr" target="_blank" rel="author">
+                                    <p>ver todas</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="atividades-div">
+            </div>
+        </article>
+    </main>
+    <script src="js/index.js"></script>
 </body>
+
 </html>

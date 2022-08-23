@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&display=swap");
+
+:root {
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
+  --text-tech: #202020;
+  --circle-stroke-color: #8e8ca6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+html {
+  background-color: var(--body-bg-color);
+}
+
+.content :is(h1, h2, h3, h4, h5, h6, p, a) {
+  color: var(--text-color);
+}
+
+a:hover {
+  color: var(--bg-techs);
+}
+
+.box {
+  background-color: var(--bg-cards);
+}
+
+#mainColumnsDiv {
+  margin-top: 2.5rem;
+}
+
+#card-informacoes {
+  padding: 3rem;
+}
+
+#card-tecnologias .tags {
+  justify-content: center;
+}
+
+#card-tecnologias .tag {
+  background-color: var(--bg-techs);
+  color: var(--text-tech);
+  width: 30%;
+}
+
+.card-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-photo .content {
+  text-align: center;
+}
+
+.card-photo img {
+  border-radius: 50%;
+  width: 12.5rem;
+  margin-bottom: 2rem;
+}
+
+.box {
+  box-shadow: 0.2rem 0.2rem #1c1b23;
+}
+
+.card-informacoes {
+  display: flex;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.card-informacoes svg {
+  margin-right: 1rem;
+}
+
+.card-informacoes p {
+  font-weight: 500;
+}
+
+.projetos-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projetos-header :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+}
+
+.projeto-nome {
+  display: flex;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.projeto-nome a p:hover {
+  color: var(--bg-techs);
+}
+
+.projeto-descricao {
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+.projeto-descricao p {
+  font-weight: 400;
+  font-size: 0.85rem;
+}
+
+.projeto-footer svg {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+}
+
+.projeto-footer p {
+  font-size: 0.85rem;
+  margin-right: 0.5rem;
+}
+
+.projeto-circle {
+  stroke: var(--circle-stroke-color);
+  stroke-width: 2;
+}
+
+.atividades-header :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+}
+
+.atividade-foto {
+  border-radius: 15px;
+}
